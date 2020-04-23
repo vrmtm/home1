@@ -14,6 +14,7 @@ module.exports = {
       filename: 'index.html',
       inject: true,
       template: path.resolve(__dirname, 'src', 'index.html'),
+      favicon: './src/favicon.png',
     }),
   ],
   module: {
